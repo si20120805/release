@@ -6,11 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000",
+    "release": "release-it"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.1",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "axios": "^1.5.0",
+    "json": "^11.0.0",
     "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next-auth": "^4.22.3",
+    "query": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.3",
+    "release-it": "^17.6.0",
+    "server": "^1.0.38",
+    "styled-components": "^5.3.11",
+    "zustand": "^4.3.9"
   }
 }
